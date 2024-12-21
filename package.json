@@ -1,0 +1,24 @@
+{
+  "name": "jstitetemplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "doiuse": "^6.0.5",
+    "postcss-load-config": "^6.0.1",
+    "vite": "^6.0.3"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "stylelint": "^16.12.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
