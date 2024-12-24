@@ -1,6 +1,7 @@
 @import url("./variables");
 @import url("./fonts");
 @import url("./settings");
+@import url('../../about/about.css');
 
 /* styles for example ↓ */
 
@@ -22,21 +23,22 @@
     gap: 20px;
 }
 
-.page__title {
+.main__screen-title {
     font-size: 10rem;
 }
 
-.page__subblock {
+.main__screen-subblock {
     display: flex;
     align-items: center;
     gap: 20px;
+    font-size: 5rem;
 }
 
-.page__subtitle {
+.main__screen-subtitle {
     font-size: 5rem;    
 }
 
-.page__svg {
+.main__screen-svg {
     width: 100px;
     height: 100px;
     transition: transform .2s ease-in-out;

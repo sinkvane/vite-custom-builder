@@ -1,0 +1,19 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about__title {
+    font-size: 5rem;
+}
+
+.about__link {
+  text-decoration: none;
+}
+
+.about__link > h2 {
+    font-size: 2rem;
+}
